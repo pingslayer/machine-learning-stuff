@@ -12,7 +12,7 @@ slope, intercept, r, p, std_err = stats.linregress(x, y)
 def myfunc(x):
   return slope * x + intercept
 
-#predict salasry for 5th year
+#predict salasry for 6th year
 salary = myfunc(6)
 
 print(salary)
